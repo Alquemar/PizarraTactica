@@ -1,0 +1,49 @@
+[gd_scene load_steps=5 format=3 uid="uid://bua31xihy27gp"]
+
+[ext_resource type="PackedScene" uid="uid://dwujme1f32rhr" path="res://prefabs/testplayer.tscn" id="1_vod5s"]
+[ext_resource type="Texture2D" uid="uid://cuaefvlonooa2" path="res://rink_round_half - còpia.svg" id="2_cuqsr"]
+[ext_resource type="PackedScene" uid="uid://6htus8hcpgus" path="res://prefabs/player.tscn" id="3_f0x78"]
+[ext_resource type="PackedScene" uid="uid://6e5xm63n7nuy" path="res://prefabs/ball.tscn" id="4_jaj56"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(756, 378)
+zoom = Vector2(0.76, 0.76)
+
+[node name="RinkRoundHalf-Còpia" type="Sprite2D" parent="."]
+position = Vector2(756, 378)
+texture = ExtResource("2_cuqsr")
+
+[node name="testplayer10" parent="." instance=ExtResource("3_f0x78")]
+position = Vector2(1364, 414)
+
+[node name="testplayer" parent="." instance=ExtResource("1_vod5s")]
+position = Vector2(239, 221)
+
+[node name="testplayer2" parent="." instance=ExtResource("3_f0x78")]
+position = Vector2(899, 246)
+
+[node name="testplayer3" parent="." instance=ExtResource("3_f0x78")]
+position = Vector2(1205, 228)
+
+[node name="testplayer4" parent="." instance=ExtResource("3_f0x78")]
+position = Vector2(1221, 550)
+
+[node name="testplayer5" parent="." instance=ExtResource("3_f0x78")]
+position = Vector2(902, 558)
+
+[node name="testplayer6" parent="." instance=ExtResource("1_vod5s")]
+position = Vector2(122, 445)
+
+[node name="testplayer7" parent="." instance=ExtResource("1_vod5s")]
+position = Vector2(242, 551)
+
+[node name="testplayer8" parent="." instance=ExtResource("1_vod5s")]
+position = Vector2(544, 528)
+
+[node name="testplayer9" parent="." instance=ExtResource("1_vod5s")]
+position = Vector2(496, 238)
+
+[node name="testplayer11" parent="." instance=ExtResource("4_jaj56")]
+position = Vector2(708, 450)
