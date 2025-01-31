@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cuaefvlonooa2"
-path="res://.godot/imported/rink_round_half - còpia.svg-28d1fa413a2fc7110dd5eee2bbdd1c40.ctex"
+path="res://.godot/imported/rink_round_half - còpia.svg-6665de16b38b492a9c4aadc009c1d3d6.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://rink_round_half - còpia.svg"
-dest_files=["res://.godot/imported/rink_round_half - còpia.svg-28d1fa413a2fc7110dd5eee2bbdd1c40.ctex"]
+source_file="res://res/svg/rink_round_half - còpia.svg"
+dest_files=["res://.godot/imported/rink_round_half - còpia.svg-6665de16b38b492a9c4aadc009c1d3d6.ctex"]
 
 [params]
 

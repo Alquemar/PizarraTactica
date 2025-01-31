@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ceml2a0xjas8c"
-path="res://.godot/imported/dibuix.svg-763cbf69dc9f42ec500433ea7071b712.ctex"
+path="res://.godot/imported/dibuix.svg-98239e3dbfa377784a6d660ea7ebfdfc.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://dibuix.svg"
-dest_files=["res://.godot/imported/dibuix.svg-763cbf69dc9f42ec500433ea7071b712.ctex"]
+source_file="res://res/svg/dibuix.svg"
+dest_files=["res://.godot/imported/dibuix.svg-98239e3dbfa377784a6d660ea7ebfdfc.ctex"]
 
 [params]
 
