@@ -1,7 +1,7 @@
 [gd_scene load_steps=5 format=3 uid="uid://bua31xihy27gp"]
 
 [ext_resource type="PackedScene" uid="uid://dwujme1f32rhr" path="res://prefabs/testplayer.tscn" id="1_vod5s"]
-[ext_resource type="Texture2D" uid="uid://cuaefvlonooa2" path="res://res/svg/rink_round_half - còpia.svg" id="2_cuqsr"]
+[ext_resource type="Texture2D" uid="uid://cuaefvlonooa2" path="res://resources/svg/rink_round_half - còpia.svg" id="2_cuqsr"]
 [ext_resource type="PackedScene" uid="uid://6htus8hcpgus" path="res://prefabs/player.tscn" id="3_f0x78"]
 [ext_resource type="PackedScene" uid="uid://6e5xm63n7nuy" path="res://prefabs/ball.tscn" id="4_jaj56"]
 
