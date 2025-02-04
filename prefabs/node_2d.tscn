@@ -1,6 +1,6 @@
 [gd_scene load_steps=5 format=3 uid="uid://bua31xihy27gp"]
 
-[ext_resource type="PackedScene" uid="uid://dwujme1f32rhr" path="res://prefabs/testplayer.tscn" id="1_vod5s"]
+[ext_resource type="PackedScene" uid="uid://p25grhomxbc5" path="res://prefabs/testplayer.tscn" id="1_vod5s"]
 [ext_resource type="Texture2D" uid="uid://cuaefvlonooa2" path="res://resources/svg/rink_round_half - còpia.svg" id="2_cuqsr"]
 [ext_resource type="PackedScene" uid="uid://6htus8hcpgus" path="res://prefabs/player.tscn" id="3_f0x78"]
 [ext_resource type="PackedScene" uid="uid://6e5xm63n7nuy" path="res://prefabs/ball.tscn" id="4_jaj56"]
@@ -15,35 +15,35 @@ zoom = Vector2(0.76, 0.76)
 position = Vector2(756, 378)
 texture = ExtResource("2_cuqsr")
 
-[node name="testplayer10" parent="." instance=ExtResource("3_f0x78")]
-position = Vector2(1364, 414)
-
 [node name="testplayer" parent="." instance=ExtResource("1_vod5s")]
-position = Vector2(239, 221)
+position = Vector2(501, 382)
 
-[node name="testplayer2" parent="." instance=ExtResource("3_f0x78")]
-position = Vector2(899, 246)
+[node name="testplayer2" parent="." instance=ExtResource("1_vod5s")]
+position = Vector2(114, 379)
 
-[node name="testplayer3" parent="." instance=ExtResource("3_f0x78")]
-position = Vector2(1205, 228)
+[node name="testplayer3" parent="." instance=ExtResource("1_vod5s")]
+position = Vector2(633, 564)
 
-[node name="testplayer4" parent="." instance=ExtResource("3_f0x78")]
-position = Vector2(1221, 550)
+[node name="testplayer4" parent="." instance=ExtResource("1_vod5s")]
+position = Vector2(617, 384)
 
-[node name="testplayer5" parent="." instance=ExtResource("3_f0x78")]
-position = Vector2(902, 558)
-
-[node name="testplayer6" parent="." instance=ExtResource("1_vod5s")]
-position = Vector2(122, 445)
-
-[node name="testplayer7" parent="." instance=ExtResource("1_vod5s")]
-position = Vector2(242, 551)
-
-[node name="testplayer8" parent="." instance=ExtResource("1_vod5s")]
-position = Vector2(544, 528)
-
-[node name="testplayer9" parent="." instance=ExtResource("1_vod5s")]
-position = Vector2(551, 149)
+[node name="testplayer5" parent="." instance=ExtResource("1_vod5s")]
+position = Vector2(607, 225)
 
 [node name="ball" parent="." instance=ExtResource("4_jaj56")]
-position = Vector2(708, 450)
+position = Vector2(997, 583)
+
+[node name="player" parent="." instance=ExtResource("3_f0x78")]
+position = Vector2(766, 587)
+
+[node name="player2" parent="." instance=ExtResource("3_f0x78")]
+position = Vector2(229, 663)
+
+[node name="player3" parent="." instance=ExtResource("3_f0x78")]
+position = Vector2(815, 159)
+
+[node name="player4" parent="." instance=ExtResource("3_f0x78")]
+position = Vector2(1064, 630)
+
+[node name="player5" parent="." instance=ExtResource("3_f0x78")]
+position = Vector2(1402, 378)

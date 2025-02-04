@@ -18,10 +18,16 @@ func _process(delta: float) -> void:
 	
 	if follo == false:
 		if Input.is_action_pressed("lclick") and mover == true:
-			follo = true
+			print("mm")
+			$Timer.start()
 	else:
 		global_position -= modif
 		if Input.is_action_pressed("lclick"):
-			follo = false
+			print("nn")
+			$Timer.start()
 		
 	mopos = get_global_mouse_position()
+
+func _on_timer_timeout() -> void:
+	follo = not follo
+	$Timer.stop()
