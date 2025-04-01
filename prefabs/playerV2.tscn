@@ -1,0 +1,19 @@
+[gd_scene load_steps=3 format=3 uid="uid://dccfyofqho3y2"]
+
+[ext_resource type="Texture2D" uid="uid://drqw1sepgpq1v" path="res://resources/svg/default player.svg" id="2_4rw2q"]
+[ext_resource type="Script" path="res://prefabs/playerv2.gd" id="2_luu5h"]
+
+[node name="player" type="Sprite2D"]
+scale = Vector2(0.125, 0.125)
+texture = ExtResource("2_4rw2q")
+script = ExtResource("2_luu5h")
+
+[node name="Button" type="Button" parent="."]
+self_modulate = Color(1, 1, 1, 0)
+offset_left = -248.0
+offset_top = -248.0
+offset_right = 248.0
+offset_bottom = 248.0
+
+[connection signal="button_down" from="Button" to="." method="_on_button_button_down"]
+[connection signal="button_up" from="Button" to="." method="_on_button_button_up"]
