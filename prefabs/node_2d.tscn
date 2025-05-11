@@ -1,9 +1,8 @@
-[gd_scene load_steps=5 format=3 uid="uid://bua31xihy27gp"]
+[gd_scene load_steps=4 format=3 uid="uid://bua31xihy27gp"]
 
-[ext_resource type="PackedScene" uid="uid://p25grhomxbc5" path="res://prefabs/testplayer.tscn" id="1_vod5s"]
-[ext_resource type="Texture2D" uid="uid://cuaefvlonooa2" path="res://resources/svg/rink_round_half - còpia.svg" id="2_cuqsr"]
-[ext_resource type="PackedScene" uid="uid://6htus8hcpgus" path="res://prefabs/player.tscn" id="3_f0x78"]
-[ext_resource type="PackedScene" uid="uid://6e5xm63n7nuy" path="res://prefabs/ball.tscn" id="4_jaj56"]
+[ext_resource type="Texture2D" uid="uid://cuaefvlonooa2" path="res://svg/rink_round_half - còpia.svg" id="2_cuqsr"]
+[ext_resource type="PackedScene" uid="uid://dccfyofqho3y2" path="res://prefabs/playerV2.tscn" id="2_hkog7"]
+[ext_resource type="Script" path="res://code/j_parser.gd" id="3_dvrtt"]
 
 [node name="Node2D" type="Node2D"]
 
@@ -15,35 +14,25 @@ zoom = Vector2(0.76, 0.76)
 position = Vector2(756, 378)
 texture = ExtResource("2_cuqsr")
 
-[node name="testplayer" parent="." instance=ExtResource("1_vod5s")]
-position = Vector2(501, 382)
+[node name="player6" parent="." instance=ExtResource("2_hkog7")]
+position = Vector2(331, 98)
+texture = null
 
-[node name="testplayer2" parent="." instance=ExtResource("1_vod5s")]
-position = Vector2(114, 379)
+[node name="player" parent="." instance=ExtResource("2_hkog7")]
+position = Vector2(112, 376)
+texture = null
 
-[node name="testplayer3" parent="." instance=ExtResource("1_vod5s")]
-position = Vector2(633, 564)
+[node name="player2" parent="." instance=ExtResource("2_hkog7")]
+position = Vector2(270, 579)
+texture = null
 
-[node name="testplayer4" parent="." instance=ExtResource("1_vod5s")]
-position = Vector2(617, 384)
+[node name="player3" parent="." instance=ExtResource("2_hkog7")]
+position = Vector2(544, 390)
+texture = null
 
-[node name="testplayer5" parent="." instance=ExtResource("1_vod5s")]
-position = Vector2(607, 225)
+[node name="player4" parent="." instance=ExtResource("2_hkog7")]
+position = Vector2(517, 604)
+texture = null
 
-[node name="ball" parent="." instance=ExtResource("4_jaj56")]
-position = Vector2(997, 583)
-
-[node name="player" parent="." instance=ExtResource("3_f0x78")]
-position = Vector2(766, 587)
-
-[node name="player2" parent="." instance=ExtResource("3_f0x78")]
-position = Vector2(229, 663)
-
-[node name="player3" parent="." instance=ExtResource("3_f0x78")]
-position = Vector2(815, 159)
-
-[node name="player4" parent="." instance=ExtResource("3_f0x78")]
-position = Vector2(1064, 630)
-
-[node name="player5" parent="." instance=ExtResource("3_f0x78")]
-position = Vector2(1402, 378)
+[node name="Node" type="Node" parent="."]
+script = ExtResource("3_dvrtt")

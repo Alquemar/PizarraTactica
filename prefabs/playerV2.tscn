@@ -1,11 +1,13 @@
 [gd_scene load_steps=3 format=3 uid="uid://dccfyofqho3y2"]
 
-[ext_resource type="Texture2D" uid="uid://drqw1sepgpq1v" path="res://resources/svg/default player.svg" id="2_4rw2q"]
-[ext_resource type="Script" path="res://prefabs/playerv2.gd" id="2_luu5h"]
+[ext_resource type="Script" path="res://code/playerv2.gd" id="2_luu5h"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_ltgls"]
+load_path = "res://.godot/imported/default player.svg-8be6c898fd9a291c5a381bdb49dd37be.ctex"
 
 [node name="player" type="Sprite2D"]
 scale = Vector2(0.125, 0.125)
-texture = ExtResource("2_4rw2q")
+texture = SubResource("CompressedTexture2D_ltgls")
 script = ExtResource("2_luu5h")
 
 [node name="Button" type="Button" parent="."]

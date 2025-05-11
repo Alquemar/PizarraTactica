@@ -1,7 +1,9 @@
 [gd_scene load_steps=4 format=3 uid="uid://6htus8hcpgus"]
 
-[ext_resource type="Script" path="res://resources/code/testplayer.gd" id="1_xsb31"]
-[ext_resource type="Texture2D" uid="uid://drqw1sepgpq1v" path="res://resources/svg/default player.svg" id="2_5tpbs"]
+[ext_resource type="Script" path="res://code/testplayer.gd" id="1_xsb31"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_ltgls"]
+load_path = "res://.godot/imported/default player.svg-8be6c898fd9a291c5a381bdb49dd37be.ctex"
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_p0ekj"]
 radius = 65.0
@@ -12,7 +14,7 @@ script = ExtResource("1_xsb31")
 
 [node name="Icon" type="Sprite2D" parent="."]
 scale = Vector2(0.25, 0.25)
-texture = ExtResource("2_5tpbs")
+texture = SubResource("CompressedTexture2D_ltgls")
 
 [node name="Area2D" type="CollisionShape2D" parent="."]
 shape = SubResource("CircleShape2D_p0ekj")
