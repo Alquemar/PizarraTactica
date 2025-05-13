@@ -1,4 +1,4 @@
-extends Sprite2D
+extends Node2D
 
 var dra = false
 var ofs = Vector2(0,0)

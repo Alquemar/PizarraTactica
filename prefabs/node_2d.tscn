@@ -16,23 +16,18 @@ texture = ExtResource("2_cuqsr")
 
 [node name="player6" parent="." instance=ExtResource("2_hkog7")]
 position = Vector2(331, 98)
-texture = null
 
 [node name="player" parent="." instance=ExtResource("2_hkog7")]
 position = Vector2(112, 376)
-texture = null
 
 [node name="player2" parent="." instance=ExtResource("2_hkog7")]
 position = Vector2(270, 579)
-texture = null
 
 [node name="player3" parent="." instance=ExtResource("2_hkog7")]
 position = Vector2(544, 390)
-texture = null
 
 [node name="player4" parent="." instance=ExtResource("2_hkog7")]
 position = Vector2(517, 604)
-texture = null
 
 [node name="Node" type="Node" parent="."]
 script = ExtResource("3_dvrtt")
